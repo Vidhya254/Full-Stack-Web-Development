@@ -31,7 +31,7 @@ const UserProfileEdit = () => {
   return (
     <div style={styles.container}>
       <div style={styles.card}>
-        <h1 style={styles.title}>👤 Edit User Profile</h1>
+        <h1 style={styles.title}> Edit User Profile</h1>
 
         <form onSubmit={handleSubmit}>
           <input
@@ -116,3 +116,4 @@ const styles = {
 };
 
 export default UserProfileEdit;
+
