@@ -3,20 +3,20 @@ import React from "react";
 const DashboardNotification = () => {
   const showNotification = (type) => {
     if (type === "success") {
-      alert("✅ Success: Your data has been saved successfully!");
+      alert("Success: Your data has been saved successfully!");
     } else if (type === "warning") {
-      alert("⚠️ Warning: Your session will expire soon!");
+      alert("Warning: Your session will expire soon!");
     } else if (type === "error") {
-      alert("❌ Error: Failed to load data!");
+      alert("Error: Failed to load data!");
     } else {
-      alert("ℹ️ Info: You have a new dashboard update!");
+      alert("Info: You have a new dashboard update!");
     }
   };
 
   return (
     <div style={styles.container}>
       <div style={styles.card}>
-        <h1 style={styles.title}>📊 Dashboard Notifications</h1>
+        <h1 style={styles.title}>Dashboard Notifications</h1>
         <p style={styles.text}>
           Click a button below to simulate dashboard notifications.
         </p>
@@ -92,3 +92,4 @@ const styles = {
 };
 
 export default DashboardNotification;
+
