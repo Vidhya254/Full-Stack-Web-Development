@@ -1,0 +1,5 @@
+import BasicAuth from "./FullStack/React/BasicAuth";
+export default function App()
+{
+  return<BasicAuth/>
+}
